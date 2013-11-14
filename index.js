@@ -11,4 +11,4 @@ if (!uuid.isUUID(thisID)) {
 	require('fs').writeFile(uuidFile, thisID);
 }
 
-module.exports = thisID;
+module.exports = thisID.toString();
